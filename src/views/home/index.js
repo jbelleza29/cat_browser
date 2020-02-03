@@ -96,7 +96,7 @@ function Home() {
       <Row>
         <CatList catImages={cats} loading={loading}/>
       </Row>
-      <Row>
+      <Row style={{ paddingTop: '10px'}}>
         <Col>
           {
             (((Object.keys(cats).length % ITEM_PER_ROW) === 0) && loadMore) ? 
